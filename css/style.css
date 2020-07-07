@@ -1,0 +1,74 @@
+.container {
+    margin-bottom: 50px;
+}
+header {
+    margin-top: 40px;
+}
+.logo {
+    width: 125px;
+}
+.btn-buy-now {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 7px 15px;
+    border: none;
+}
+.see-all {
+    text-decoration: none;
+    color: orange;
+}
+.see-all:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-deck {
+    padding: 50px;
+}
+.card {
+    border: none;
+    box-shadow: 0px 5px 20px lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-body, .card-footer {
+    text-align: center;
+}
+.card-footer {
+    background-color: white;
+    border: none;
+}
+.cat-underline {
+    width: 110px;
+    height: 8px;
+    background-image: linear-gradient(90deg, #ffe185, #f88c18);
+    border-radius: 5px;
+}
+.cat-img {
+    border: none;
+    box-shadow: 0px 5px 20px lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.categories {
+    padding: 10px 100px 20px 30px;
+}
+.bag {
+    padding: 40px 0px 0px 65px;
+}
+.placeholder {
+    width: 100%;
+}
+footer {
+    text-align: center;
+}
+footer a {
+    color: orange;
+    text-decoration: none;
+}
+footer a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+}
