@@ -14,6 +14,20 @@ header {
     padding: 7px 15px;
     border: none;
 }
+.carousel-indicators {
+    margin-bottom: -30px;
+}
+.carousel-indicators .active {
+    background-color: orange;
+    width: 40px;
+    border-radius: 13px;
+}
+.carousel-indicators li {
+    background-color: gray;
+    border-radius: 50%;
+    width: 15px;
+    height: 10px
+}
 .see-all {
     text-decoration: none;
     color: orange;
@@ -25,7 +39,7 @@ header {
 .card-deck {
     padding: 50px;
 }
-.card {
+.card-box {
     border: none;
     box-shadow: 0px 5px 20px lightgrey;
     padding: 20px;
@@ -44,24 +58,24 @@ header {
     background-image: linear-gradient(90deg, #ffe185, #f88c18);
     border-radius: 5px;
 }
-.cat-img {
+.categories {
+    padding: 25% 15% 5% 15%;
+    margin: 10% 0%;
     border: none;
     box-shadow: 0px 5px 20px lightgrey;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px;
-}
-.categories {
-    padding: 10px 100px 20px 30px;
+    border-radius: 20px 7px 50px 7px;
 }
 .bag {
-    padding: 40px 0px 0px 65px;
-}
-.placeholder {
+    padding: 30% 20% 10% 20%;
+    border-radius: 7px 20px 7px 50px;
+    /* margin-right: -1px; */
+    /* position: relative; */
+    /* left: 30px; */
     width: 100%;
 }
 footer {
     text-align: center;
+    margin-bottom: 10px;
 }
 footer a {
     color: orange;
@@ -70,5 +84,5 @@ footer a {
 footer a:hover {
     font-weight: bold;
     text-decoration: none;
-    color: orange;
+    color: darkblue;
 }
